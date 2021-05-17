@@ -12,7 +12,7 @@ import java.util.UUID;
 @RestController
 public class RandomCodeController {
 
-    @GetMapping("/randomTest")
+    @GetMapping("")
     public ResponseEntity randomCode() {
         return ResponseEntity.ok(UUID.randomUUID().toString());
     }
